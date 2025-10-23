@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <title>Cran Coffé</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+<header class="header">
+  <div class="header-content">
+    <img src="./logo.png" alt="logo" class="logo">
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="#menu">Menu</a>
+      <a href="#review">Avaliações</a>
+      <a href="#address">Endereço</a>
+    </nav>
+
+    <div class="icons">
+      <img src="https://img.icons8.com/ios/30/ffffff/search--v1.png" alt="Buscar" />
+      <img src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png" alt="Carrinho" />
+    </div>
+  </div>
+</header>
+
+    <!-- Home -->
+    <section class="home-container" id="home">
+        <div class="content">
+
+            <h3>O MELHOR CAFÉ DA REGiÃO </h3>
+            <p>Nossa cafeteria é reconhecida como a melhor da cidade, um lugar onde o aroma do café fresco se mistura
+                com o
+                aconchego de um espaço feito para você. Trabalhamos apenas com grãos selecionados e bebidas preparadas
+                com
+                carinho, garantindo sempre qualidade e sabor incomparáveis.</p>
+            <a href="#" class="btn">Adquira o seu agora</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="./sobre nos.jpg" alt="sobre-nos">
+            </div>
+            <div class="content">
+                <h3>O que faz nosso café especial</h3>
+                <p>Nosso café nasce de grãos selecionados, cultivados com cuidado e colhidos no ponto ideal. A torra
+                    artesanal
+                    revela notas únicas — que podem lembrar chocolate, caramelo ou frutas — e garante equilíbrio
+                    perfeito entre
+                    aroma e sabor. Cada xícara é preparada com dedicação para transformar o simples ato de beber café em
+                    uma
+                    experiência memorável.</p>
+                <a href="#about" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+<section class="menu" id="menu">
+  <h2 class="title">Nosso <span>Menu</span></h2>
+  <div class="box-container">
+    <div class="box">
+      <img src="./menu-1.png" alt="item-1">
+      <h3>Café Coado</h3>
+      <div class="price">R$15,99 <span>R$20,99</span></div>
+      <a href="#" class="btn add-to-cart">Adicione ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./menu-2.png" alt="item-2">
+      <h3>Café Espresso</h3>
+      <div class="price">R$15,99 <span>R$20,99</span></div>
+      <a href="#" class="btn add-to-cart">Adicione ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./menu-3.png" alt="item-3">
+      <h3>Cappuccino</h3>
+      <div class="price">R$13,99 <span>R$18,99</span></div>
+      <a href="#" class="btn add-to-cart">Adicione ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./menu-4.png" alt="item-4">
+      <h3>Café Ristretto</h3>
+      <div class="price">R$11,99 <span>R$10,99</span></div>
+      <a href="#" class="btn add-to-cart">Adicione ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./menu-5.png" alt="item-5">
+      <h3>Café Lungo</h3>
+      <div class="price">R$8,99 <span>R$20,99</span></div>
+      <a href="#" class="btn add-to-cart">Adicione ao Carrinho</a>
+    </div>
+</section>
+
+<!-- Carrinho (fora do menu) -->
+<section id="carrinho" class="carrinho">
+  <h2>🛒 Seu Carrinho</h2>
+  <ul id="cart-items"></ul>
+  <h3><strong>Total: R$ <span id="cart-total">0.00</span></strong></h3>
+</section>
+
+    <!-- Avaliações -->
+    <section class="review" id="review">
+        <h2 class="title">Nossos <span>Clientes</span></h2>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./quote-img.png" alt="comentario">
+                <h3>Mariana Souza</h3>
+                <p>O café é encorpado e aromático, com um sabor inesquecível que evidencia a qualidade dos grãos. O
+                    ambiente é
+                    aconchegante e cheio de charme. Quanto ao atendimento, a equipe é muito atenciosa e sempre disposta
+                    a
+                    recomendar as melhores opções.</p>
+                <img src="./moça.png" alt="foto-cliente 1" class="user">
+
+            </div>
+
+            <div class="box">
+
+                <img src="./quote-img.png" alt="comentario">
+                <h3>Luan Pereira</h3>
+                <p>O café tem um equilíbrio perfeito entre intensidade e suavidade. O ambiente é acolhedor e moderno,
+                    ideal
+                    tanto para amigos quanto para momentos de tranquilidade. O atendimento é impecável: os baristas
+                    demonstram
+                    simpatia e conhecimento.</p>
+                <img src="./moço 2.png" alt="Foto-Cliente 2" class="user">
+
+            </div>
+
+            <div class="box">
+                <img src="./quote-img.png" alt="comentario">
+                <h3>Igor Vinicius</h3>
+                <p>O café é encorpado, com um aroma envolvente e sabor marcante. O ambiente transmite conforto e
+                    sofisticação,
+                    cada detalhe pensado para o cliente. O atendimento é cordial e sempre com um sorriso.</p>
+                <img src="./moço 3.png" alt="Foto-Cliente 3" class="user">
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Endereço -->
+<section class="address" id="address">
+  <h2 class="title">Nosso <span>Endereço</span></h2>
+
+  <div class="address-wrapper">
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.902243701578!2d-43.94675372556953!3d-19.92852388145954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697d9f672cc89%3A0x9b2677dedba51950!2sCaf%C3%A9%20Bonjour!5e0!3m2!1spt-BR!2sbr!4v1758665356276!5m2!1spt-BR!2sbr"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <div class="address-info">
+      <h3>Café Bonjour</h3>
+      <p>Rua dos Sabores, 123 - Centro</p>
+      <p>Nova Lima - MG, 34000-000</p>
+      <p>Telefone: (31) 99999-9999</p>
+      <p>Email: contato@cafebonjour.com</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Café Bonjour. Todos os direitos reservados.</p>
+
+    <div class="social-icons">
+      <a href="https://www.instagram.com/seuperfil" target="_blank" aria-label="Instagram">
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/seuperfil" target="_blank" aria-label="Facebook">
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="Facebook" />
+      </a>
+      <a href="https://twitter.com/seuperfil" target="_blank" aria-label="Twitter">
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+
+</html>
